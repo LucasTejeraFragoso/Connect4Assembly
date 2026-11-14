@@ -4,6 +4,10 @@ Academic project developed for the **Computer Architecture and Organization** co
 
 ![Connect Four Gameplay](Connect4_Screenshot.png)
 
+## Controls
+* **Player 1:** `A` / `D` (move left/right), `S` (drop token)
+* **Player 2:** `I` / `P` (move left/right), `O` (drop token)
+
 ## Key Features
 * **Custom Graphics & Board Rendering:** Direct video memory manipulation (`graphics_basic.asm`, `graphics_core.asm`) and custom character set (`charset.bin`) to render the grid and colored tokens.
 * **Configurable Game Rules:** Support for custom board dimensions (`xsize`, `ysize`), variable winning conditions (`N-in a row`), and customizable player colors (`colors.asm`, `game_variables.asm`).
@@ -18,7 +22,7 @@ Academic project developed for the **Computer Architecture and Organization** co
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/LucasTejeraFragoso/Connect4Assembly.git
    ```
 2. Open the folder in **Visual Studio Code** with the **DeZog** extension installed.
 3. Open `main.asm` and press `F5` (**Run > Start Debugging**) to launch the ZX Spectrum simulator and play.
