@@ -2,7 +2,7 @@
 
 Academic project developed for the **Computer Architecture and Organization** course (B.Sc. in Computer Engineering). This repository contains a low-level implementation of the classic **Connect Four** game for the **ZX Spectrum 48K** architecture, written entirely in **Z80 Assembly**.
 
-![Connect Four Gameplay](Connect4_Screenshot.png)
+![Connect Four Gameplay](Connect4.gif)
 
 ## Controls
 * **Player 1:** `A` / `D` (move left/right), `S` (drop token)
