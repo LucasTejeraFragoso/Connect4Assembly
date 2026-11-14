@@ -9,7 +9,7 @@ Academic project developed for the **Computer Architecture and Organization** co
 * **Player 2:** `I` / `P` (move left/right), `O` (drop token)
 
 ## Key Features
-* **Custom Graphics & Board Rendering:** Direct video memory manipulation (`graphics_basic.asm`, `graphics_core.asm`) and custom character set (`charset.bin`) to render the grid and colored tokens.
+* **Custom Graphics & Board Rendering:** Direct video memory manipulation (`graphics_basic.asm`, `graphics_core.asm`) to render the grid and colored tokens.
 * **Configurable Game Rules:** Support for custom board dimensions (`xsize`, `ysize`), variable winning conditions (`N-in a row`), and customizable player colors (`colors.asm`, `game_variables.asm`).
 * **Keyboard Input & Turn Flow:** Low-level keyboard polling (`keyboard.asm`) and structured game state loop (`game_logic_flow.asm`).
 * **Win & Draw Detection:** Modular verification algorithms (`logic_checks.asm`) checking horizontal, vertical, and diagonal alignments.
