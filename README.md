@@ -27,5 +27,6 @@ Academic project developed for the **Computer Architecture and Organization** co
 2. Open the folder in **Visual Studio Code** with the **DeZog** extension installed.
 3. Open `main.asm` and press `F5` (**Run > Start Debugging**) to launch the ZX Spectrum simulator and play.
 
-## Authors & Context
-Developed as a university team assignment to master processor registers, stack management, memory-mapped graphics, and modular assembly programming.
+## Authors & Acknowledgments
+* **Project Implementation:** Developed by our student team as coursework for the **Computer Architecture and Organization** course.
+* **Starter Code:** Base configuration files and initial helper templates were provided by the course faculty.
